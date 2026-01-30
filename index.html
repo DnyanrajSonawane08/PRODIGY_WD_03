@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="home" class="container screen active">
+      <img src="image.png" alt="game-icon" width="150">
+      
+      <h1 class="title">Tic Tac <span class="purple">Toe</span></h1>
+      <p class="desc">The classic game reimagined. Simple, beautiful,<br>and ready for you to make your move.</p>
+
+      <button id="startBtn" class="start-btn">Start new Game</button>
+      <p class="note">Press start to generate a unique game room</p>
+
+    </div>
+
+
+    <div id="game" class="container screen">
+      <div class="game-header">
+        <button id="homeBtn" class="circle-btn thin purple-outline">&#8962;</button>
+        <h2 class="game-title">Tic Tac Toe</h2>
+      </div>
+
+      <div id="banner" class="banner"></div>
+        <div class="board">
+          <div class="cell" data-cell></div>
+         <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+             <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+               <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+        </div>
+        <button id="resetBtn" class="start-btn small">Play Again!</button>
+    </div>
+
+  
+  <script src="script.js"></script>
+  </body>
+</html>
